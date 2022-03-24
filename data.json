@@ -1,0 +1,187 @@
+{
+  "listaProductos": [
+    {
+      "nombre": "pelota",
+      "imagen": "./images/pelota.webp",
+      "precio": 200,
+      "stock": 5
+    },
+    {
+      "nombre": "pesas rusas",
+      "imagen": "./images/imagenpesas.webp",
+      "precio": 2000,
+      "stock": 5
+    },
+    {
+      "nombre": "barra",
+      "imagen": "./images/barra.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "bolsa de boxeo",
+      "imagen": "./images/bolsaboxeo.jpeg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "pelota de basquet",
+      "imagen": "./images/barra.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "barra",
+      "imagen": "./images/barra.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "barra",
+      "imagen": "./images/producto1.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "barra",
+      "imagen": "./images/producto2.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "pelota 5 kilos",
+      "imagen": "./images/producto3.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "barra pared",
+      "imagen": "./images/producto4.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "disco de agarre",
+      "imagen": "./images/producto5.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "soga",
+      "imagen": "./images/producto6.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "power",
+      "imagen": "./images/producto7.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "rueda abdominal",
+      "imagen": "./images/producto8.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "guantes de agarre",
+      "imagen": "./images/producto9.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "pesa rusa",
+      "imagen": "./images/producto10.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "barra",
+      "imagen": "./images/productp11.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "pelota yoga",
+      "imagen": "./images/producto12.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "chaleco kilos",
+      "imagen": "./images/producto13.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "tortugas",
+      "imagen": "./images/producto14.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "circuito escalera",
+      "imagen": "./images/producto15.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "mancuerna",
+      "imagen": "./images/producto16.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "pelota-5-kilos",
+      "imagen": "./images/producto17.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "push-up",
+      "imagen": "./images/push-up-300x300.jpg",
+      "precio": 1900,
+      "stock": 5
+    },
+    {
+      "nombre": "colchoneta",
+      "imagen": "./images/producto19.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "bici fija",
+      "imagen": "./images/producto20.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "bici fija power",
+      "imagen": "./images/producto21.jpg",
+      "precio": 2500,
+      "stock": 5
+    },
+    {
+      "nombre": "multigimnasio",
+      "imagen": "./images/producto22.jpg",
+      "precio": 2500,
+      "descripcion":"multigimnasio contiene casi todo lo necesario para trabajar distintas partes del cuerpo",
+      "stock": 5
+    },
+    {
+      "nombre": "cinta",
+      "imagen": "./images/producto23.jpg",
+      "precio": 2500,
+      "descripcion":"cinta electrica, varios niveles con intensidad",
+      "stock": 5
+    },
+    {
+      "nombre": "mancuernas",
+      "imagen": "./images/producto24.jpg",
+      "precio": 2500,
+      "descripcion":"mancuernas de hasta 15 kilos, desmontable",
+      "stock": 5
+    }
+  ]
+}
