@@ -14,14 +14,14 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 80px;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_VNTfcjuQuC8-yLscZZ23NZ1sY5WmFfUlg&usqp=CAU");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbfJ-wVBvuT_pwyDPMoyebHhSK2EH4epAViQ&usqp=CAU");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 #logo{
-  height: 100px ;
-  width: 100px ;
+  height: 50px ;
+  width: px ;
   background-color: aqua;
 }
 main {
@@ -47,9 +47,10 @@ main {
     flex-direction: column;
     height: 300px;
     width: 200px;
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(65, 61, 56);
     border-radius: 20px;
     margin: 10px 20px;
+    box-shadow: 2px 4px 15px 0 rgb(56, 52, 52);
   }
 
   div.contenedorNombre {
