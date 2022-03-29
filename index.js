@@ -46,11 +46,16 @@ fetch('data.json')
   })
 
 function mostrarAlerta() {
-  Swal.fire(
-    'Producto agregado al carrito!',
-    'Presiona OK para cerrar!',
-    'success'
-  )
+  Toastify({
+    text: "agregaste un producto al carrito",
+    duration: 3000
+  }).showToast();
+
+    //Swal.fire(
+    //'Producto agregado al carrito!',
+    //'Presiona OK para cerrar!',
+    //'success'
+  //) 
 }
 
 const botonPrueba = document.getElementById('prueba')
