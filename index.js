@@ -1,5 +1,45 @@
-console.log("INICIO")
 
+
+let carrito = []
+let contenedorTarjetas = document.getElementById("contenedorTarjetas")
+
+fetch('data.json')
+  .then(res => res.json())
+  .then(data => {
+    miPrograma(data.listaProductos)
+  })
+
+function miPrograma(productos) {
+  productos.map((producto, i) => {
+    let tarjeta = document.createElement("div")
+    tarjeta.classList.add("tarjetaProducto")
+
+    tarjeta.innerHTML = `
+    <div class="contenedorNombre">
+      <h3 class="nombreProducto">${producto.nombre}</h3>
+    </div>
+    <div class='imagenProducto' style="background-image: url(${producto.imagen})"></div>
+    <div class="contenedorPrecioYCarrito">
+      <h4>$${producto.precio}</h4>
+      <div class="cantidad">
+        <input id=${producto.id}Input value="1" min="1" max=${producto.stock} type="number"></input>
+        <i class="fa fa-cart-plus" id=${producto.id}Carrito onClick="mostrarAlerta()"></i>
+      </div>
+    </div>
+    `
+    contenedorTarjetas.appendChild(tarjeta)
+    
+    var entrada = document.getElementById(`${producto.id}Input`)
+
+    const btnCarrito = document.getElementById(`${producto.id}Carrito`)
+    btnCarrito.addEventListener('mousedown', () => {
+      localStorage.getItem('carrito', []) == null && localStorage.setItem('carrito', '[]')
+      var carritoStorage = JSON.parse(localStorage.getItem('carrito'))
+      carritoStorage.push({ idProd: producto.id, nombreProd: producto.nombre, unidades: parseInt(entrada.value), precioUnidad: producto.precio, subtotal: parseInt(entrada.value) * producto.precio })
+      localStorage.setItem('carrito', JSON.stringify(carritoStorage))
+    })
+  })
+}
 
 //if (!sessionStorage.getItem('nombre')) {
   //let nombre = prompt("Ingrese su nombre: ")
@@ -12,38 +52,8 @@ Swal.fire(
   'info'
 )
 
-let header = document.getElementsByTagName("header")
-header[0].innerHTML = `<h1>Sport Life</h1>
-<h5>Bienvenido/a ${sessionStorage.getItem('nombre')} a nuestra tienda</h5>`
 
 
-let carrito = []
-let contenedorTarjetas = document.getElementById("contenedorTarjetas")
-
-fetch('data.json')
-  .then(res => res.json())
-  .then(data => {
-    let productos = data.listaProductos
-
-    for (let i = 0; i < productos.length; i++) {
-      let tarjeta = document.createElement("div")
-      tarjeta.classList.add("tarjetaProducto")
-
-      let {nombre,imagen,precio,descripcion}=productos[i]
-
-      tarjeta.innerHTML = `
-      <div class="contenedorNombre">
-        <h3 class="nombreProducto">${nombre}</h3>
-      </div>
-      <div class='imagenProducto' style="background-image: url(${imagen})"></div>
-      <div class="contenedorPrecioYCarrito">
-        <h4>$${precio}</h4>
-        <div class="botonCarrito" onClick="mostrarAlerta()"><i class="fa fa-cart-plus"></i></i></div>
-      </div>
-    `
-      contenedorTarjetas.appendChild(tarjeta)
-    }
-  })
 
 function mostrarAlerta() {
   Toastify({
@@ -57,8 +67,3 @@ function mostrarAlerta() {
     //'success'
   //) 
 }
-
-const botonPrueba = document.getElementById('prueba')
-botonPrueba.addEventListener('click', (e) => { 
-  console.log("HOLA",e)
-})

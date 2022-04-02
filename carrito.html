@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +8,31 @@
   <title>Sport Life</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
+
 <body>
   <header>
     <h1>Sport Life</h1>
-    <a href="./carrito.html">IR a carrito</a>
+    <a href="./index.html">IR al index</a>
   </header>
+
   <main>
-
-    <div id="contenedorTarjetas">
-    </div>
-
+    <table id="tabla">
+      <tr>
+        <th>Imagen</th>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>Subtotal</th>
+      </tr>
+    </table>
   </main>
-  
+
   <footer>
 
   </footer>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-  <script src="./index.js"></script>
+  <script src="./carrito.js"></script>
 </body>
+
 </html>

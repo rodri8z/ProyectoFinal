@@ -5,210 +5,210 @@
       "imagen": "./images/penalty.jpg",
       "precio": 5200,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 1
     },
     {
       "nombre": "pesas rusas",
       "imagen": "./images/imagenpesas.webp",
       "precio": 2000,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 2
     },
     {
       "nombre": "tobillera abierta ajustable",
       "imagen": "./images/tobillera.png",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 3
     },
     {
       "nombre": "bolsa de boxeo",
       "imagen": "./images/bolsaboxeo.jpeg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 4
     },
     {
       "nombre": "pelota de basquet",
       "imagen": "./images/pelotabasquet.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "banda elastica circular",
       "imagen": "./images/banda.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "minitramp",
       "imagen": "./images/trampolin.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "kit barra + mancuernas",
       "imagen": "./images/kit.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "medicine ball",
       "imagen": "./images/producto3.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "barra dominada",
       "imagen": "./images/producto4.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "disco de agarre",
       "imagen": "./images/producto5.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "soga",
       "imagen": "./images/producto6.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "resorte de mano",
       "imagen": "./images/producto7.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "rueda abdominal",
       "imagen": "./images/producto8.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "guantes de agarre",
       "imagen": "./images/producto9.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "pesa rusa",
       "imagen": "./images/producto10.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "banco plano",
       "imagen": "./images/bancoplano.jpg",
       "precio": 12500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "pelota nassau",
       "imagen": "./images/pelota1.jpg",
       "precio": 12500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "chaleco con peso",
       "imagen": "./images/producto13.jpg",
       "precio": 7000,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "conos",
       "imagen": "./images/producto14.jpg",
       "precio": 2600,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "circuito escalera",
       "imagen": "./images/producto15.jpg",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "mancuernas",
       "imagen": "./images/mancuernas2.jpg",
       "precio": 4800,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "medicine ball",
       "imagen": "./images/producto17.jpg",
       "precio": 8500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "push-up",
       "imagen": "./images/push-up-300x300.jpg",
       "precio": 1900,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "colchoneta",
       "imagen": "./images/producto19.jpg",
       "precio": 3500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "caminador eliptico",
       "imagen": "./images/caminador.jpg",
       "precio": 30000,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "bici fija power",
       "imagen": "./images/producto21.jpg",
       "precio": 70000,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "banco multigimnasio",
       "imagen": "./images/banco.jpg",
       "precio": 33000,
       "descripcion":"multigimnasio contiene casi todo lo necesario para trabajar distintas partes del cuerpo",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "cinta electrica",
       "imagen": "./images/producto23.jpg",
       "precio": 50500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
-      "stock": 5
+      "stock": 5, "id": 5
     },
     {
       "nombre": "mancuernas",
       "imagen": "./images/mancuernas.jpg",
       "precio": 10000,
       "descripcion":"mancuernas de hasta 15 kilos, desmontable",
-      "stock": 6
+      "stock": 5, "id": 6
     }
   ]
 }
