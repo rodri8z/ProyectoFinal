@@ -1,11 +1,34 @@
 
-
 let carrito = []
 let contenedorTarjetas = document.getElementById("contenedorTarjetas")
 
+const llamarModal= async()=>{
+  const { value: nombre } = await Swal.fire({
+    title: 'ingrese nombre',
+    input: 'text',
+    inputLabel: 'Password',
+    inputPlaceholder: 'ingrese nombre',
+    inputAttributes: {
+      autocapitalize: 'off',
+      autocorrect: 'off'
+    }
+  })
+  
+  if (nombre) {
+    sessionStorage.setItem('nombre', nombre)
+    Swal.fire(
+      `bienvenido ${sessionStorage.getItem('nombre')}!`,
+      'Presiona OK para cerrar!',
+      'info'
+    )
+  }
+}
+
 fetch('data.json')
   .then(res => res.json())
-  .then(data => {
+  .then(async data => {
+
+    await llamarModal()
     miPrograma(data.listaProductos)
   })
 
@@ -41,16 +64,6 @@ function miPrograma(productos) {
   })
 }
 
-//if (!sessionStorage.getItem('nombre')) {
-  //let nombre = prompt("Ingrese su nombre: ")
-  //sessionStorage.setItem('nombre', nombre)
-//}
-!sessionStorage.getItem('nombre') && sessionStorage.setItem('nombre', prompt("Ingrese su nombre: "))
-Swal.fire(
-  `bienvenido ${sessionStorage.getItem('nombre')}!`,
-  'Presiona OK para cerrar!',
-  'info'
-)
 
 
 

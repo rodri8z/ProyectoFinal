@@ -22,9 +22,23 @@ header {
 header * {
   margin: 0px 30px
 }
+header div#botonCarritoHeader{
+
+}
 header a {
   color: black;
   text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+header a:hover{
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+  border: 2px solid white;
+  border-radius: 10px;
 }
 .imagenProducto{
   width: 100px;
@@ -95,6 +109,10 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 8px;
+  }
+  div.cantidad i:hover{
+    transform: scale(.9);
+    cursor: pointer;
   }
 
 footer {
