@@ -176,8 +176,8 @@
       "stock": 5, "id": 25
     },
     {
-      "nombre": "caminador eliptico",
-      "imagen": "./images/caminador.jpg",
+      "nombre": "barra lisa",
+      "imagen": "./images/barra2.jpg",
       "precio": 30000,
       "descripcion":"cinta electrica, varios niveles con intensidad",
       "stock": 5, "id": 26

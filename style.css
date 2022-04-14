@@ -14,10 +14,13 @@ header {
   justify-content: space-between;
   align-items: center;
   min-height: 80px;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbfJ-wVBvuT_pwyDPMoyebHhSK2EH4epAViQ&usqp=CAU");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPrVWoAymxY_tHxas3iV0OjiOM7_1TbzDZAQ&usqp=CAU");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+header h1{
+  color: white;
 }
 header * {
   margin: 0px 30px
@@ -26,7 +29,7 @@ header div#botonCarritoHeader{
 
 }
 header a {
-  color: black;
+  color: rgb(14, 1, 1);
   text-decoration: none;
   padding: 10px;
   background-color: white;
@@ -49,7 +52,7 @@ main {
   display: flex;
   justify-content: center;
   flex: 1;
-  background-color: rgba(211, 147, 69, 0.336);
+  background-color: rgba(218, 229, 238, 0.336);
 }
 
   div#contenedorTarjetas {
@@ -83,7 +86,7 @@ main {
 
   h3.nombreProducto, div.contenedorPrecioYCarrito {
     font-size: 1.5em;
-    color: beige;
+    color: rgb(20, 20, 15);
   }
 
   div.imagenProducto, div.botonCarrito {
@@ -113,10 +116,11 @@ main {
   div.cantidad i:hover{
     transform: scale(.9);
     cursor: pointer;
+
   }
 
 footer {
-  background-color: rgb(180, 172, 175);
+  background-color: rgb(172, 174, 180);
   width: 100%;
   min-height: 50px;
   color: white;
