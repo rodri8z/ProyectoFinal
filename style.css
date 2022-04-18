@@ -20,21 +20,39 @@ header {
   background-position: center center;
   background-size: cover;
 }
+.logo-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-cont *{
+  margin: 0 6px;
+}
+.logo{
+  background-image: url("./images/logo2.png");
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
 header h1{
   color: white;
 }
 .input-cont{
   width: 300px;
-  left: 30px;
-  margin: 15px;
+  left: 100px;
   padding: 5px;
 }
 .input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: left;
   width: 100%;
   height: 40px;
   position: relative;
 }
-.imput input{
+.input input{
   width: 100%;
   height: 100%;
   outline: none;
@@ -64,9 +82,7 @@ header h1{
 header * {
   margin: 0px 30px
 }
-header div#botonCarritoHeader{
-  
-}
+
 header a {
   color: black;
   text-decoration: none;
@@ -115,6 +131,9 @@ main {
     margin: 10px 20px;
     box-shadow: 2px 4px 15px 0 rgb(56, 52, 52);
   }
+  div.tarjetaProducto:hover{
+    transform: scale(1.02);
+  }
 
   div.contenedorNombre {
     display: flex;
@@ -158,14 +177,35 @@ main {
   div.cantidad i:hover{
     transform: scale(.9);
     cursor: pointer;
-    background-color: black;
+    background-color: rgb(253, 11, 11);
     color: white;
     transform: scale(1.1);
     border: 2px solid white;
     border-radius: 10px;
   }
-
+  #tabla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 80%;
+    min-height: 300px;
+  }
+  tr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  th, td{
+    width: 100px;
+    background-color: brown;
+    margin: 5px;
+  }
 footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: rgb(172, 174, 180);
   width: 100%;
   min-height: 50px;

@@ -2,17 +2,20 @@
 let carrito = []
 let contenedorTarjetas = document.getElementById("contenedorTarjetas")
 
+
 const llamarModal= async()=>{
-  const { value: nombre } = await Swal.fire({
-    title: 'ingrese nombre',
-    input: 'text',
-    inputLabel: 'Password',
-    inputPlaceholder: 'ingrese nombre',
-    inputAttributes: {
-      autocapitalize: 'off',
-      autocorrect: 'off'
-    }
-  })
+  if (!sessionStorage.getItem('nombre')) {
+    var { value: nombre } = await Swal.fire({
+      title: 'ingrese nombre',
+      input: 'text',
+      inputPlaceholder: 'ingrese nombre',
+      inputAttributes: {
+        autocapitalize: 'off',
+        autocorrect: 'off'
+      }
+    })
+    
+  }
   
   if (nombre) {
     sessionStorage.setItem('nombre', nombre)
@@ -71,7 +74,7 @@ function miPrograma(productos) {
 function mostrarAlerta() {
   Toastify({
     text: "agregaste un producto al carrito",
-    duration: 3000
+    duration: 2000
   }).showToast();
 
     //Swal.fire(

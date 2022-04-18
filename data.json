@@ -73,21 +73,21 @@
     {
       "nombre": "disco de agarre",
       "imagen": "./images/producto5.jpg",
-      "precio": 2500,
+      "precio": 2550,
       "descripcion":"cinta electrica, varios niveles con intensidad",
       "stock": 5, "id": 11
     },
     {
       "nombre": "soga",
       "imagen": "./images/producto6.jpg",
-      "precio": 2500,
+      "precio": 1500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
       "stock": 5, "id": 12
     },
     {
       "nombre": "resorte de mano",
       "imagen": "./images/producto7.jpg",
-      "precio": 2500,
+      "precio": 1200,
       "descripcion":"cinta electrica, varios niveles con intensidad",
       "stock": 5, "id": 13
     },
@@ -101,7 +101,7 @@
     {
       "nombre": "guantes de agarre",
       "imagen": "./images/producto9.jpg",
-      "precio": 2500,
+      "precio": 1800,
       "descripcion":"cinta electrica, varios niveles con intensidad",
       "stock": 5, "id": 15
     },

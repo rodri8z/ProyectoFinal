@@ -22,13 +22,11 @@ if (carritoStorage) {  carritoStorage.map(producto => {
 
 let tr = document.createElement('tr')
   tr.innerHTML = `   
-    <tr>
       <td>TOTAL</td>
       <td></td>
       <td></td>
       <td>${cantidadTotal}</td>
       <td>$${total}</td>
-    </tr>
   `
 tabla.appendChild(tr)
 }
