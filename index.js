@@ -61,7 +61,7 @@ function miPrograma(productos) {
     btnCarrito.addEventListener('mousedown', () => {
       localStorage.getItem('carrito', []) == null && localStorage.setItem('carrito', '[]')
       var carritoStorage = JSON.parse(localStorage.getItem('carrito'))
-      carritoStorage.push({ idProd: producto.id, nombreProd: producto.nombre, unidades: parseInt(entrada.value), precioUnidad: producto.precio, subtotal: parseInt(entrada.value) * producto.precio })
+      carritoStorage.push({ idProd: producto.id, nombreProd: producto.nombre, unidades: parseInt(entrada.value), precioUnidad: producto.precio, subtotal: parseInt(entrada.value) * producto.precio , imagen:producto.imagen})
       localStorage.setItem('carrito', JSON.stringify(carritoStorage))
     })
   })

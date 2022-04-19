@@ -15,7 +15,7 @@
       "stock": 5, "id": 2
     },
     {
-      "nombre": "tobillera abierta ajustable",
+      "nombre": "tobillera abierta",
       "imagen": "./images/tobillera.png",
       "precio": 2500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
@@ -94,7 +94,7 @@
     {
       "nombre": "rueda abdominal",
       "imagen": "./images/producto8.jpg",
-      "precio": 2500,
+      "precio": 1500,
       "descripcion":"cinta electrica, varios niveles con intensidad",
       "stock": 5, "id": 14
     },
@@ -176,9 +176,9 @@
       "stock": 5, "id": 25
     },
     {
-      "nombre": "barra lisa",
+      "nombre": "barra",
       "imagen": "./images/barra2.jpg",
-      "precio": 30000,
+      "precio": 8000,
       "descripcion":"cinta electrica, varios niveles con intensidad",
       "stock": 5, "id": 26
     },

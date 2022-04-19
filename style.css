@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: 'Josefin Sans', sans-serif;
+  flex-wrap: wrap;
 }
 
 header {
@@ -38,47 +39,7 @@ header {
 header h1{
   color: white;
 }
-.input-cont{
-  width: 300px;
-  left: 100px;
-  padding: 5px;
-}
-.input{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: left;
-  width: 100%;
-  height: 40px;
-  position: relative;
-}
-.input input{
-  width: 100%;
-  height: 100%;
-  outline: none;
-  border: none;
-  border-bottom: 2px solid silver;
-  font-size: 18px;
-}
-.input label{
-  position: absolute;
-  left: 0;
-  bottom: 20px;
-  color: silver;
-  font-size: 18px;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
-.input input:focus ~label,
-.input input:valid ~label{
-  transform: translate(-50px);
-  font-size: 16px;
-  color: aqua;
-}
-.input input:focus,
-.input input:valid{
-  border-color: blue;
-} 
+
 header * {
   margin: 0px 30px
 }
@@ -98,25 +59,24 @@ header a:hover{
   border: 2px solid white;
   border-radius: 10px;
 }
-.imagenProducto{
-  width: 100px;
-  height: 100px;
-  background-color: blue !important ;
-}
 main {
   display: flex;
   justify-content: center;
-  flex: 1;
-  background-color: rgba(218, 229, 238, 0.336);
+  align-items: center;
+  flex-direction: column;
 }
 
-  div#contenedorTarjetas {
-    display: flex;
-    justify-content: center;
+div#contenedorTarjetas {
+  display: flex;
+  justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 80vw ;
+    width: 95vw;
     min-height: 75vh;
+  }
+  .imagenProducto{
+    width: 100px;
+    height: 100px;
   }
   div.tarjetaProducto {
     text-transform: capitalize;
@@ -139,9 +99,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 70px;
   }
-
+  .nombreProducto{
+    margin: 10px;
+    text-align: center;
+  }
   h3.nombreProducto, div.contenedorPrecioYCarrito {
     font-size: 1.5em;
     color: rgb(20, 20, 15);
@@ -177,8 +140,7 @@ main {
   div.cantidad i:hover{
     transform: scale(.9);
     cursor: pointer;
-    background-color: rgb(253, 11, 11);
-    color: white;
+    background-color:aqua;
     transform: scale(1.1);
     border: 2px solid white;
     border-radius: 10px;
@@ -188,18 +150,17 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
     width: 80%;
-    min-height: 300px;
+    min-height: 81.5vh;
   }
   tr{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   th, td{
     width: 100px;
-    background-color: brown;
     margin: 5px;
   }
 footer {
@@ -207,7 +168,20 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(172, 174, 180);
-  width: 100%;
   min-height: 50px;
   color: white;
+  margin-top: 5px;
+}
+@media screen and (max-width:500px) {
+  div.tarjetaProducto{
+    width: 100%;
+    height: 70vh;
+  }
+  div.imagenProducto{
+    width: 90%;
+    height: 50%;
+  }
+  div#contenedorTarjetas {
+      width: 90vw;
+    }
 }

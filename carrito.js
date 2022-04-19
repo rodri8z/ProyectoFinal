@@ -10,7 +10,7 @@ if (carritoStorage) {  carritoStorage.map(producto => {
   let tr = document.createElement('tr')
   tr.innerHTML = `   
     <tr>
-      <td><img src="https://rockcontent.com/es/wp-content/uploads/sites/3/2019/02/o-que-e-produto-no-mix-de-marketing-1024x538.png"class="imagenProducto"></img></td>
+      <td><img src="${producto.imagen}" class="imagenProducto"></img></td>
       <td>${producto.nombreProd}</td>
       <td>$${producto.precioUnidad}</td>
       <td>${producto.unidades}</td>
@@ -18,6 +18,8 @@ if (carritoStorage) {  carritoStorage.map(producto => {
     </tr>
   `
   tabla.appendChild(tr)
+  let hr = document.createElement("hr")
+  tabla.appendChild(hr)
 })
 
 let tr = document.createElement('tr')
